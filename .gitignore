@@ -1,1 +1,8 @@
 /.idea/
+/fs/var/lib/postgresql/data/**
+!/fs/var/lib/postgresql/data/.gitkeep
+/fs/home/fias/base/**
+!/fs/home/fias/base/.gitkeep
+/fs/home/fias/update/**
+!/fs/home/fias/update/.gitkeep
+/docker-compose.yml
