@@ -6,3 +6,4 @@
 /fs/home/fias/update/**
 !/fs/home/fias/update/.gitkeep
 /docker-compose.yml
+*.log
