@@ -1,0 +1,2 @@
+SET search_path TO fias;
+VACUUM FULL VERBOSE ANALYZE;
