@@ -1,4 +1,4 @@
-SET search_path TO fias,fias;
+SET search_path TO fias;
 
 insert into house50
 select *
@@ -38,6 +38,7 @@ create index house_regioncode_houseguid_startdate_enddate_aoguid_index
     on house (regioncode, houseguid, startdate, enddate, aoguid);
 create index house_houseid_aoguid_index
     on house (regioncode, houseid, aoguid);
+create index house_houseid_index on house (houseid);
 
 ALTER TABLE house01
     ADD COLUMN regioncode character varying(2) DEFAULT ('01');

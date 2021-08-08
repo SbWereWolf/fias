@@ -1,11 +1,4 @@
-SET search_path TO fias,fias;
-
-insert into room50
-select *
-from room5001;
-insert into room77
-select *
-from room7701;
+SET search_path TO fias;
 
 DROP TABLE IF EXISTS room;
 create table room
@@ -34,6 +27,7 @@ create table room
 
 create index room_regioncode_roomid_startdate_enddate_houseguid_index
     on room (regioncode, roomid,startdate,enddate,houseguid);
+create index room_roomid_index on room (roomid);
 
 
 ALTER TABLE room

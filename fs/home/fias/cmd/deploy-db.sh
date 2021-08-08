@@ -1,4 +1,6 @@
 #!/bin/bash
+echo 'START deploy FIAS'
+
 date --rfc-3339=seconds && echo 'START init db and schema'
 
 date --rfc-3339=seconds && echo 'CREATE DATABASE fias'
@@ -11,19 +13,21 @@ time psql -U postgres -d fias -wtc "CREATE SCHEMA IF NOT EXISTS fias"
 
 date --rfc-3339=seconds && echo 'FINISH init db and schema'
 
-date --rfc-3339=seconds && echo 'START import-dbf'
-time bash /home/fias/cmd/import-dbf.sh
-date --rfc-3339=seconds && echo 'FINISH import-dbf'
+date --rfc-3339=seconds && echo 'START import-base-dbf'
+time bash /home/fias/cmd/import-base-dbf.sh
+date --rfc-3339=seconds && echo 'FINISH import-base-dbf'
 
-date --rfc-3339=seconds && echo 'START setup-address-object'
+date --rfc-3339=seconds && echo 'START alter-address-object'
 time psql -U postgres -d fias -wab \
-    -f /home/fias/cmd/setup-address-object.sql
-date --rfc-3339=seconds && echo 'FINISH setup-address-object'
+    -f /home/fias/cmd/alter-address-object.sql
+date --rfc-3339=seconds && echo 'FINISH alter-address-object'
 
-date --rfc-3339=seconds && echo 'START setup-house'
-time psql -U postgres -d fias -wab -f /home/fias/cmd/setup-house.sql
-date --rfc-3339=seconds && echo 'FINISH setup-house'
+date --rfc-3339=seconds && echo 'START alter-house'
+time psql -U postgres -d fias -wab -f /home/fias/cmd/alter-house.sql
+date --rfc-3339=seconds && echo 'FINISH alter-house'
 
-date --rfc-3339=seconds && echo 'START setup-room'
-time psql -U postgres -d fias -wab -f /home/fias/cmd/setup-room.sql
-date --rfc-3339=seconds && echo 'FINISH setup-room'
+date --rfc-3339=seconds && echo 'START alter-room'
+time psql -U postgres -d fias -wab -f /home/fias/cmd/alter-room.sql
+date --rfc-3339=seconds && echo 'FINISH alter-room'
+
+echo 'FINISH deploy FIAS'

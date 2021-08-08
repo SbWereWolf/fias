@@ -1,4 +1,4 @@
-SET search_path TO fias,fias;
+SET search_path TO fias;
 
 DROP TABLE IF EXISTS addrob;
 create table addrob
@@ -47,6 +47,7 @@ create table addrob
 
 create index addrob_regioncode_aoguid_startdate_enddate_index
     on addrob (regioncode, aoguid, startdate, enddate);
+create index addrob_aoid_index on addrob (aoid);
 
 ALTER TABLE addrob
     ATTACH PARTITION addrob01 FOR VALUES IN ('01');
