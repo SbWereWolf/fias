@@ -3,7 +3,7 @@ SET name = im.name
 from import.actstat im
          join fias.actstat fi on im.actstatid = fi.actstatid
 where fa.actstatid = im.actstatid
-  and im.name != fi.name;
+  and im.name != fa.name;
 
 insert into fias.actstat
     (actstatid, name)
@@ -17,7 +17,7 @@ SET name = im.name
 from import.centerst im
          join fias.centerst fi on im.centerstid = fi.centerstid
 where fa.centerstid = im.centerstid
-  and im.name != fi.name;
+  and im.name != fa.name;
 
 insert into fias.centerst
     (centerstid, name)
@@ -31,7 +31,7 @@ SET name = im.name
 from import.curentst im
          join fias.curentst fi on im.curentstid = fi.curentstid
 where fa.curentstid = im.curentstid
-  and im.name != fi.name;
+  and im.name != fa.name;
 
 insert into fias.curentst
     (curentstid, name)
@@ -46,8 +46,8 @@ SET name      = im.name,
 from import.eststat im
          join fias.eststat fi on im.eststatid = fi.eststatid
 where fa.eststatid = im.eststatid
-    and (im.name != fi.name
-   OR im.shortname != fi.shortname);
+    and (im.name != fa.name
+   OR im.shortname != fa.shortname);
 
 insert into fias.eststat
     (eststatid, name, shortname)
@@ -62,8 +62,8 @@ SET name      = im.name,
 from import.flattype im
          join fias.flattype fi on im.fltypeid = fi.fltypeid
 where fa.fltypeid = im.fltypeid
-    and (im.name != fi.name
-   OR im.shortname != fi.shortname);
+    and (im.name != fa.name
+   OR im.shortname != fa.shortname);
 
 insert into fias.flattype
     (fltypeid, name, shortname)
@@ -77,7 +77,7 @@ SET name = im.name
 from import.ndoctype im
          join fias.ndoctype fi on im.ndtypeid = fi.ndtypeid
 where fa.ndtypeid = im.ndtypeid
-  and im.name != fi.name;
+  and im.name != fa.name;
 
 insert into fias.ndoctype
     (ndtypeid, name)
@@ -91,7 +91,7 @@ SET name = im.name
 from import.operstat im
          join fias.operstat fi on im.operstatid = fi.operstatid
 where fa.operstatid = im.operstatid
-  and im.name != fi.name;
+  and im.name != fa.name;
 
 insert into fias.operstat
     (operstatid, name)
@@ -106,7 +106,7 @@ SET name      = im.name,
 from import.roomtype im
          join fias.roomtype fi on im.rmtypeid = fi.rmtypeid
 where fa.rmtypeid = im.rmtypeid
-  and (im.name != fi.name OR im.shortname != fi.shortname);
+  and (im.name != fa.name OR im.shortname != fa.shortname);
 
 insert into fias.roomtype
     (rmtypeid, name, shortname)
@@ -122,9 +122,9 @@ SET level    = im.level,
 from import.socrbase im
          join fias.socrbase fi on im.kod_t_st = fi.kod_t_st
 where fa.kod_t_st = im.kod_t_st
-  and (im.level != fi.level
-    OR im.socrname != fi.socrname
-    OR im.scname != fi.scname);
+  and (im.level != fa.level
+    OR im.socrname != fa.socrname
+    OR im.scname != fa.scname);
 
 insert into fias.socrbase
     (level, socrname, scname, kod_t_st)
@@ -139,7 +139,7 @@ SET name      = im.name,
 from import.strstat im
          join fias.strstat fi on im.strstatid = fi.strstatid
 where fa.strstatid = im.strstatid
-  and (im.name != fi.name OR im.shortname != fi.shortname);
+  and (im.name != fa.name OR im.shortname != fa.shortname);
 
 insert into fias.strstat
     (strstatid, name, shortname)

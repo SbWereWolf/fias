@@ -47,7 +47,7 @@ create table addrob
 
 create index addrob_regioncode_aoguid_startdate_enddate_index
     on addrob (regioncode, aoguid, startdate, enddate);
-create index addrob_aoid_index on addrob (aoid);
+create index addrob_aoguid_aoid_index on addrob (aoguid,aoid);
 
 ALTER TABLE addrob
     ATTACH PARTITION addrob01 FOR VALUES IN ('01');

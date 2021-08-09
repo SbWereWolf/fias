@@ -27,7 +27,7 @@ create table room
 
 create index room_regioncode_roomid_startdate_enddate_houseguid_index
     on room (regioncode, roomid,startdate,enddate,houseguid);
-create index room_roomid_index on room (roomid);
+create index room_roomguid_roomid_index on room (roomguid,roomid);
 
 
 ALTER TABLE room
