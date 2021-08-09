@@ -37,7 +37,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob01 im join fias.addrob01 fi on im.aoid = fi.aoid;
+from import.addrob01 im join fias.addrob01 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob02 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -77,7 +78,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob02 im join fias.addrob02 fi on im.aoid = fi.aoid;
+from import.addrob02 im join fias.addrob02 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob03 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -117,7 +119,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob03 im join fias.addrob03 fi on im.aoid = fi.aoid;
+from import.addrob03 im join fias.addrob03 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob04 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -157,7 +160,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob04 im join fias.addrob04 fi on im.aoid = fi.aoid;
+from import.addrob04 im join fias.addrob04 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob05 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -197,7 +201,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob05 im join fias.addrob05 fi on im.aoid = fi.aoid;
+from import.addrob05 im join fias.addrob05 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob06 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -237,7 +242,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob06 im join fias.addrob06 fi on im.aoid = fi.aoid;
+from import.addrob06 im join fias.addrob06 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob07 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -277,7 +283,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob07 im join fias.addrob07 fi on im.aoid = fi.aoid;
+from import.addrob07 im join fias.addrob07 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob08 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -317,7 +324,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob08 im join fias.addrob08 fi on im.aoid = fi.aoid;
+from import.addrob08 im join fias.addrob08 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob09 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -357,7 +365,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob09 im join fias.addrob09 fi on im.aoid = fi.aoid;
+from import.addrob09 im join fias.addrob09 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob10 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -397,7 +406,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob10 im join fias.addrob10 fi on im.aoid = fi.aoid;
+from import.addrob10 im join fias.addrob10 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob11 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -437,7 +447,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob11 im join fias.addrob11 fi on im.aoid = fi.aoid;
+from import.addrob11 im join fias.addrob11 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob12 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -477,7 +488,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob12 im join fias.addrob12 fi on im.aoid = fi.aoid;
+from import.addrob12 im join fias.addrob12 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob13 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -517,7 +529,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob13 im join fias.addrob13 fi on im.aoid = fi.aoid;
+from import.addrob13 im join fias.addrob13 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob14 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -557,7 +570,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob14 im join fias.addrob14 fi on im.aoid = fi.aoid;
+from import.addrob14 im join fias.addrob14 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob15 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -597,7 +611,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob15 im join fias.addrob15 fi on im.aoid = fi.aoid;
+from import.addrob15 im join fias.addrob15 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob16 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -637,7 +652,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob16 im join fias.addrob16 fi on im.aoid = fi.aoid;
+from import.addrob16 im join fias.addrob16 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob17 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -677,7 +693,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob17 im join fias.addrob17 fi on im.aoid = fi.aoid;
+from import.addrob17 im join fias.addrob17 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob18 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -717,7 +734,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob18 im join fias.addrob18 fi on im.aoid = fi.aoid;
+from import.addrob18 im join fias.addrob18 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob19 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -757,7 +775,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob19 im join fias.addrob19 fi on im.aoid = fi.aoid;
+from import.addrob19 im join fias.addrob19 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob20 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -797,7 +816,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob20 im join fias.addrob20 fi on im.aoid = fi.aoid;
+from import.addrob20 im join fias.addrob20 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob21 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -837,7 +857,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob21 im join fias.addrob21 fi on im.aoid = fi.aoid;
+from import.addrob21 im join fias.addrob21 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob22 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -877,7 +898,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob22 im join fias.addrob22 fi on im.aoid = fi.aoid;
+from import.addrob22 im join fias.addrob22 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob23 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -917,7 +939,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob23 im join fias.addrob23 fi on im.aoid = fi.aoid;
+from import.addrob23 im join fias.addrob23 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob24 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -957,7 +980,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob24 im join fias.addrob24 fi on im.aoid = fi.aoid;
+from import.addrob24 im join fias.addrob24 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob25 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -997,7 +1021,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob25 im join fias.addrob25 fi on im.aoid = fi.aoid;
+from import.addrob25 im join fias.addrob25 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob26 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1037,7 +1062,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob26 im join fias.addrob26 fi on im.aoid = fi.aoid;
+from import.addrob26 im join fias.addrob26 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob27 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1077,7 +1103,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob27 im join fias.addrob27 fi on im.aoid = fi.aoid;
+from import.addrob27 im join fias.addrob27 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob28 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1117,7 +1144,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob28 im join fias.addrob28 fi on im.aoid = fi.aoid;
+from import.addrob28 im join fias.addrob28 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob29 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1157,7 +1185,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob29 im join fias.addrob29 fi on im.aoid = fi.aoid;
+from import.addrob29 im join fias.addrob29 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob30 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1197,7 +1226,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob30 im join fias.addrob30 fi on im.aoid = fi.aoid;
+from import.addrob30 im join fias.addrob30 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob31 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1237,7 +1267,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob31 im join fias.addrob31 fi on im.aoid = fi.aoid;
+from import.addrob31 im join fias.addrob31 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob32 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1277,7 +1308,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob32 im join fias.addrob32 fi on im.aoid = fi.aoid;
+from import.addrob32 im join fias.addrob32 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob33 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1317,7 +1349,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob33 im join fias.addrob33 fi on im.aoid = fi.aoid;
+from import.addrob33 im join fias.addrob33 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob34 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1357,7 +1390,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob34 im join fias.addrob34 fi on im.aoid = fi.aoid;
+from import.addrob34 im join fias.addrob34 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob35 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1397,7 +1431,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob35 im join fias.addrob35 fi on im.aoid = fi.aoid;
+from import.addrob35 im join fias.addrob35 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob36 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1437,7 +1472,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob36 im join fias.addrob36 fi on im.aoid = fi.aoid;
+from import.addrob36 im join fias.addrob36 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob37 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1477,7 +1513,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob37 im join fias.addrob37 fi on im.aoid = fi.aoid;
+from import.addrob37 im join fias.addrob37 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob38 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1517,7 +1554,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob38 im join fias.addrob38 fi on im.aoid = fi.aoid;
+from import.addrob38 im join fias.addrob38 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob39 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1557,7 +1595,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob39 im join fias.addrob39 fi on im.aoid = fi.aoid;
+from import.addrob39 im join fias.addrob39 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob40 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1597,7 +1636,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob40 im join fias.addrob40 fi on im.aoid = fi.aoid;
+from import.addrob40 im join fias.addrob40 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob41 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1637,7 +1677,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob41 im join fias.addrob41 fi on im.aoid = fi.aoid;
+from import.addrob41 im join fias.addrob41 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob42 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1677,7 +1718,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob42 im join fias.addrob42 fi on im.aoid = fi.aoid;
+from import.addrob42 im join fias.addrob42 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob43 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1717,7 +1759,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob43 im join fias.addrob43 fi on im.aoid = fi.aoid;
+from import.addrob43 im join fias.addrob43 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob44 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1757,7 +1800,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob44 im join fias.addrob44 fi on im.aoid = fi.aoid;
+from import.addrob44 im join fias.addrob44 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob45 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1797,7 +1841,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob45 im join fias.addrob45 fi on im.aoid = fi.aoid;
+from import.addrob45 im join fias.addrob45 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob46 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1837,7 +1882,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob46 im join fias.addrob46 fi on im.aoid = fi.aoid;
+from import.addrob46 im join fias.addrob46 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob47 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1877,7 +1923,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob47 im join fias.addrob47 fi on im.aoid = fi.aoid;
+from import.addrob47 im join fias.addrob47 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob48 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1917,7 +1964,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob48 im join fias.addrob48 fi on im.aoid = fi.aoid;
+from import.addrob48 im join fias.addrob48 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob49 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1957,7 +2005,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob49 im join fias.addrob49 fi on im.aoid = fi.aoid;
+from import.addrob49 im join fias.addrob49 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob50 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -1997,7 +2046,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob50 im join fias.addrob50 fi on im.aoid = fi.aoid;
+from import.addrob50 im join fias.addrob50 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob51 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2037,7 +2087,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob51 im join fias.addrob51 fi on im.aoid = fi.aoid;
+from import.addrob51 im join fias.addrob51 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob52 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2077,7 +2128,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob52 im join fias.addrob52 fi on im.aoid = fi.aoid;
+from import.addrob52 im join fias.addrob52 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob53 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2117,7 +2169,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob53 im join fias.addrob53 fi on im.aoid = fi.aoid;
+from import.addrob53 im join fias.addrob53 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob54 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2157,7 +2210,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob54 im join fias.addrob54 fi on im.aoid = fi.aoid;
+from import.addrob54 im join fias.addrob54 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob55 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2197,7 +2251,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob55 im join fias.addrob55 fi on im.aoid = fi.aoid;
+from import.addrob55 im join fias.addrob55 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob56 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2237,7 +2292,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob56 im join fias.addrob56 fi on im.aoid = fi.aoid;
+from import.addrob56 im join fias.addrob56 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob57 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2277,7 +2333,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob57 im join fias.addrob57 fi on im.aoid = fi.aoid;
+from import.addrob57 im join fias.addrob57 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob58 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2317,7 +2374,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob58 im join fias.addrob58 fi on im.aoid = fi.aoid;
+from import.addrob58 im join fias.addrob58 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob59 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2357,7 +2415,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob59 im join fias.addrob59 fi on im.aoid = fi.aoid;
+from import.addrob59 im join fias.addrob59 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob60 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2397,7 +2456,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob60 im join fias.addrob60 fi on im.aoid = fi.aoid;
+from import.addrob60 im join fias.addrob60 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob61 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2437,7 +2497,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob61 im join fias.addrob61 fi on im.aoid = fi.aoid;
+from import.addrob61 im join fias.addrob61 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob62 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2477,7 +2538,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob62 im join fias.addrob62 fi on im.aoid = fi.aoid;
+from import.addrob62 im join fias.addrob62 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob63 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2517,7 +2579,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob63 im join fias.addrob63 fi on im.aoid = fi.aoid;
+from import.addrob63 im join fias.addrob63 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob64 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2557,7 +2620,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob64 im join fias.addrob64 fi on im.aoid = fi.aoid;
+from import.addrob64 im join fias.addrob64 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob65 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2597,7 +2661,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob65 im join fias.addrob65 fi on im.aoid = fi.aoid;
+from import.addrob65 im join fias.addrob65 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob66 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2637,7 +2702,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob66 im join fias.addrob66 fi on im.aoid = fi.aoid;
+from import.addrob66 im join fias.addrob66 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob67 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2677,7 +2743,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob67 im join fias.addrob67 fi on im.aoid = fi.aoid;
+from import.addrob67 im join fias.addrob67 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob68 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2717,7 +2784,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob68 im join fias.addrob68 fi on im.aoid = fi.aoid;
+from import.addrob68 im join fias.addrob68 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob69 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2757,7 +2825,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob69 im join fias.addrob69 fi on im.aoid = fi.aoid;
+from import.addrob69 im join fias.addrob69 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob70 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2797,7 +2866,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob70 im join fias.addrob70 fi on im.aoid = fi.aoid;
+from import.addrob70 im join fias.addrob70 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob71 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2837,7 +2907,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob71 im join fias.addrob71 fi on im.aoid = fi.aoid;
+from import.addrob71 im join fias.addrob71 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob72 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2877,7 +2948,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob72 im join fias.addrob72 fi on im.aoid = fi.aoid;
+from import.addrob72 im join fias.addrob72 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob73 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2917,7 +2989,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob73 im join fias.addrob73 fi on im.aoid = fi.aoid;
+from import.addrob73 im join fias.addrob73 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob74 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2957,7 +3030,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob74 im join fias.addrob74 fi on im.aoid = fi.aoid;
+from import.addrob74 im join fias.addrob74 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob75 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -2997,7 +3071,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob75 im join fias.addrob75 fi on im.aoid = fi.aoid;
+from import.addrob75 im join fias.addrob75 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob76 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3037,7 +3112,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob76 im join fias.addrob76 fi on im.aoid = fi.aoid;
+from import.addrob76 im join fias.addrob76 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob77 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3077,7 +3153,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob77 im join fias.addrob77 fi on im.aoid = fi.aoid;
+from import.addrob77 im join fias.addrob77 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob78 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3117,7 +3194,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob78 im join fias.addrob78 fi on im.aoid = fi.aoid;
+from import.addrob78 im join fias.addrob78 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob79 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3157,7 +3235,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob79 im join fias.addrob79 fi on im.aoid = fi.aoid;
+from import.addrob79 im join fias.addrob79 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob83 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3197,7 +3276,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob83 im join fias.addrob83 fi on im.aoid = fi.aoid;
+from import.addrob83 im join fias.addrob83 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob86 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3237,7 +3317,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob86 im join fias.addrob86 fi on im.aoid = fi.aoid;
+from import.addrob86 im join fias.addrob86 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob87 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3277,7 +3358,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob87 im join fias.addrob87 fi on im.aoid = fi.aoid;
+from import.addrob87 im join fias.addrob87 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob89 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3317,7 +3399,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob89 im join fias.addrob89 fi on im.aoid = fi.aoid;
+from import.addrob89 im join fias.addrob89 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob91 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3357,7 +3440,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob91 im join fias.addrob91 fi on im.aoid = fi.aoid;
+from import.addrob91 im join fias.addrob91 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob92 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3397,7 +3481,8 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob92 im join fias.addrob92 fi on im.aoid = fi.aoid;
+from import.addrob92 im join fias.addrob92 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
 update fias.addrob99 fa
 SET actstatus  = im.actstatus,
     aoguid     = im.aoguid,
@@ -3437,4 +3522,5 @@ SET actstatus  = im.actstatus,
     plancode   = im.plancode,
     cadnum     = im.cadnum,
     divtype= im.divtype
-from import.addrob99 im join fias.addrob99 fi on im.aoid = fi.aoid;
+from import.addrob99 im join fias.addrob99 fi on im.aoid = fi.aoid
+where im.aoid = fa.aoid;
