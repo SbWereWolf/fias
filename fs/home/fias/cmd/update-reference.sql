@@ -1,6 +1,6 @@
 
 update fias.actstat fa
-SET actstatid     = im.actstatid,
+SET
     name     = im.name
 from import.actstat im
          join fias.actstat fi on im.actstatid = fi.actstatid
@@ -14,7 +14,7 @@ from import.actstat im
 where fi.actstatid is null;
 
 update fias.centerst fa
-SET centerstid     = im.centerstid,
+SET
     name     = im.name
 from import.centerst im
          join fias.centerst fi on im.centerstid = fi.centerstid
@@ -28,7 +28,7 @@ from import.centerst im
 where fi.centerstid is null;
 
 update fias.curentst fa
-SET curentstid     = im.curentstid,
+SET
     name     = im.name
 from import.curentst im
          join fias.curentst fi on im.curentstid = fi.curentstid
@@ -42,7 +42,7 @@ from import.curentst im
 where fi.curentstid is null;
 
 update fias.eststat fa
-SET eststatid     = im.eststatid,
+SET
     name     = im.name,
     shortname     = im.shortname
 from import.eststat im
@@ -57,7 +57,7 @@ from import.eststat im
 where fi.eststatid is null;
 
 update fias.flattype fa
-SET fltypeid     = im.fltypeid,
+SET
     name     = im.name,
     shortname     = im.shortname
 from import.flattype im
@@ -72,7 +72,7 @@ from import.flattype im
 where fi.fltypeid is null;
 
 update fias.ndoctype fa
-SET ndtypeid     = im.ndtypeid,
+SET
     name     = im.name
 from import.ndoctype im
          join fias.ndoctype fi on im.ndtypeid = fi.ndtypeid
@@ -86,7 +86,7 @@ from import.ndoctype im
 where fi.ndtypeid is null;
 
 update fias.operstat fa
-SET operstatid     = im.operstatid,
+SET
     name     = im.name
 from import.operstat im
          join fias.operstat fi on im.operstatid = fi.operstatid
@@ -100,7 +100,7 @@ from import.operstat im
 where fi.operstatid is null;
 
 update fias.roomtype fa
-SET rmtypeid     = im.rmtypeid,
+SET
     name     = im.name,
     shortname     = im.shortname
 from import.roomtype im
@@ -117,8 +117,7 @@ where fi.rmtypeid is null;
 update fias.socrbase fa
 SET level     = im.level,
     socrname     = im.socrname,
-    scname     = im.scname,
-    kod_t_st = im.kod_t_st
+    scname     = im.scname
 from import.socrbase im
          join fias.socrbase fi on im.kod_t_st = fi.kod_t_st
 where im.level != fi.level
@@ -133,7 +132,7 @@ from import.socrbase im
 where fi.kod_t_st is null;
 
 update fias.strstat fa
-SET strstatid     = im.strstatid,
+SET
     name     = im.name,
     shortname     = im.shortname
 from import.strstat im
