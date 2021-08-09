@@ -7,16 +7,6 @@ select im.*
 from import.room01 im
          left join fias.room01 fi on im.roomid = fi.roomid
 where fi.roomid is null;
-
-insert into fias.room01
-(roomid, roomguid, houseguid, regioncode, flatnumber, flattype,
- roomnumber, roomtype, cadnum, roomcadnum, postalcode, updatedate,
- previd, nextid, operstatus, startdate, enddate, livestatus,
- normdoc)
-select im.*
-from import.room01 im
-         left join fias.room01 fi on im.roomid = fi.roomid
-where fi.roomid is null;
 insert into fias.room02
 (roomid, roomguid, houseguid, regioncode, flatnumber, flattype,
  roomnumber, roomtype, cadnum, roomcadnum, postalcode, updatedate,

@@ -7,16 +7,6 @@ select im.*
 from import.house01 im
          left join fias.house01 fi on im.houseid = fi.houseid
 where fi.houseid is null;
-
-insert into fias.house01
-(aoguid, buildnum, enddate, eststatus, houseguid, houseid, housenum,
- statstatus, ifnsfl, ifnsul, okato, oktmo, postalcode, startdate,
- strucnum, strstatus, terrifnsfl, terrifnsul, updatedate, normdoc,
- counter, cadnum, divtype, regioncode)
-select im.*
-from import.house01 im
-         left join fias.house01 fi on im.houseid = fi.houseid
-where fi.houseid is null;
 insert into fias.house02
 (aoguid, buildnum, enddate, eststatus, houseguid, houseid, housenum,
  statstatus, ifnsfl, ifnsul, okato, oktmo, postalcode, startdate,
