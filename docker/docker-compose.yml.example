@@ -1,0 +1,13 @@
+version: "3"
+services:
+  fias:
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    image: pg13-deb
+    build: ../
+    ports:
+      - 5432:5432
+    volumes:
+      - ../fs/var/lib/postgresql/data/:/var/lib/postgresql/data/
+      - ../fs/home/fias/base/:/home/fias/base/
+      - ../fs/home/fias/update/:/home/fias/update/

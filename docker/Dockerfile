@@ -225,7 +225,7 @@ RUN mkdir -p /home/fias/base/ \
     && mkdir -p /home/fias/update/ \
     && mkdir -p /home/fias/cmd/
 
-COPY ./fs/home/fias/cmd/ /home/fias/cmd/
+COPY ../fs/home/fias/cmd/ /home/fias/
 
 RUN find /home/fias/cmd/ -maxdepth 2 -type f -regextype posix-awk \
     -regex ".*\/.*.sh$" -exec chmod +x {} \;
