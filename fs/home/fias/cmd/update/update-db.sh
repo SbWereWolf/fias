@@ -34,6 +34,11 @@ time psql -U postgres -d fias -wab \
     -f /home/fias/cmd/update/index-for-house.sql
 date --rfc-3339=seconds && echo 'FINISH index-for-house'
 
+date --rfc-3339=seconds && echo 'START alter-house'
+time psql -U postgres -d fias -wab \
+    -f /home/fias/cmd/update/alter-house.sql
+date --rfc-3339=seconds && echo 'FINISH alter-house'
+
 date --rfc-3339=seconds && echo 'START update-house'
 time psql -U postgres -d fias -wab \
     -f /home/fias/cmd/update/update-house.sql
