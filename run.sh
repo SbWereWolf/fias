@@ -1,3 +1,4 @@
+date --rfc-3339=seconds
 docker-compose build >> run.log
 docker-compose up -d >> run.log
 docker-compose ps >> run.log
