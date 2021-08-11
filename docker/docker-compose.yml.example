@@ -4,7 +4,7 @@ services:
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
     image: pg13-deb
-    build: ../
+    build: ./
     ports:
       - 5432:5432
     volumes:
