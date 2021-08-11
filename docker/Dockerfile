@@ -222,10 +222,9 @@ RUN apt-get update \
      rm -rf /var/lib/apt/lists/*;
 
 RUN mkdir -p /home/fias/base/ \
-    && mkdir -p /home/fias/update/ \
-    && mkdir -p /home/fias/cmd/
+    && mkdir -p /home/fias/update/
 
-COPY ../fs/home/fias/cmd/ /home/fias/
+COPY ./cmd/ /home/fias/cmd/
 
 RUN find /home/fias/cmd/ -maxdepth 2 -type f -regextype posix-awk \
     -regex ".*\/.*.sh$" -exec chmod +x {} \;

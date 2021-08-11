@@ -1,5 +1,13 @@
 SET search_path TO fias;
 
+
+insert into room50
+select *
+from room5001;
+insert into room77
+select *
+from room7701;
+
 DROP TABLE IF EXISTS room;
 create table room
 (
