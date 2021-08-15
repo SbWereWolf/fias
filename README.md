@@ -27,19 +27,20 @@ time unzip /opt/fias_dbf.zip -d ./fias/fs/home/fias/base/ \
 cd fias
 chmod +x ./install.sh && ./install.sh
 # at this point we can edit docker-compose.yml
-time ./run.sh && time ./deploy.sh
+time bash ./run.sh && time bash ./deploy.sh
 ```
 # How to Update
 ```bash
 # Let suppose the app are installed to /home/ directory
 cd /home/fias/
+bash ./run.sh
 
-# Purge destination directiry before unzip update archive
+# Purge destination directory before unzip update archive
 rm -rf ./fs/home/fias/update/*
 # Let suppose the update are downloaded to /opt/ directory
 time unzip /opt/fias_delta_dbf.zip -d ./fs/home/fias/update/ \
     && time find ./fs/home/fias/update/ -type f -regextype posix-awk \
     -regex ".*\/(STEAD|NORDOC)([0-9]{2}|[0-9]{4})\.DBF$" -exec rm {} \;
 
-time ./update.sh
+time bash ./update.sh
 ```
