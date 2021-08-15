@@ -28,4 +28,15 @@ time psql -U postgres -d fias -wab \
     -f /home/fias/cmd/deploy/alter-room.sql
 date --rfc-3339=seconds && echo 'FINISH alter-room'
 
+date --rfc-3339=seconds && echo 'START create-stored-procedures'
+time psql -U postgres -d fias -wab \
+    -f /home/fias/cmd/deploy/get-address-object-group.sql
+time psql -U postgres -d fias -wab \
+    -f /home/fias/cmd/deploy/get-address-object-name.sql
+time psql -U postgres -d fias -wab \
+    -f /home/fias/cmd/deploy/get-address-object-tree.sql
+time psql -U postgres -d fias -wab \
+    -f /home/fias/cmd/deploy/get-house-name.sql
+date --rfc-3339=seconds && echo 'FINISH create-stored-procedures'
+
 echo 'FINISH deploy FIAS'

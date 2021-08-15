@@ -217,17 +217,15 @@ STOPSIGNAL SIGINT
 
 EXPOSE 5432
 
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends pgdbf;\
-     rm -rf /var/lib/apt/lists/*;
-
-RUN mkdir -p /home/fias/base/ \
-    && mkdir -p /home/fias/update/
-
 COPY ./cmd/ /home/fias/cmd/
 
 RUN find /home/fias/cmd/ -maxdepth 2 -type f -regextype posix-awk \
-    -regex ".*\/.*.sh$" -exec chmod +x {} \;
+    -regex ".*\/.*.sh$" -exec chmod +x {} \; \
+    && mkdir -p /home/fias/base/ \
+    && mkdir -p /home/fias/update/ \
+    && apt-get update \
+    && apt-get install -y --no-install-recommends pgdbf;\
+    rm -rf /var/lib/apt/lists/*;
 
 WORKDIR /home/fias/
 
