@@ -1,3 +1,4 @@
+#!/bin/bas
 date --rfc-3339=seconds
 cd ./docker/ || exit 13
 

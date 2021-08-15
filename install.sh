@@ -1,3 +1,4 @@
+#!/bin/bash
 find ./ -maxdepth 1 -type f -regextype posix-awk -regex ".*\/.*.sh$" \
     -exec chmod +x {} \;
 
